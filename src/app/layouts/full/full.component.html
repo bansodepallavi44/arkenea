@@ -1,0 +1,17 @@
+<div class="main-container">
+    <mat-toolbar class="topbar telative">
+        <button mat-icon-button>
+            <mat-icon style="color: black;">menu</mat-icon>
+            Users</button>
+        <span fxFlex></span>
+        <app-header></app-header>
+    </mat-toolbar>
+    <mat-sidenav-container class="example-sidenav-container" [style.marginTop.px]="mobileQuery.matches ? 0 : 0">
+        <mat-sidenav-content class="page-wrapper">
+            <div class="page-content">
+                <router-outlet>
+                </router-outlet>
+            </div>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

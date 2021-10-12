@@ -1,0 +1,18 @@
+table.mat-table.cdk-table.my-table.mat-elevation-z8 {
+    margin: auto;
+    margin-top: 10px;
+    font-family: poppins;
+}
+
+.container.text-center {
+    text-align: center;
+    margin-top: 40px;
+}
+
+th.mat-header-cell {
+    background-color: #00a99d;
+}
+
+.my-button {
+    background-color: #00a99d;
+}
